@@ -1,7 +1,10 @@
 package com.vision.freecrm.hybridframework.testbase;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import com.vision.freecrm.hybridframework.pages.LoginPage;
 import com.vision.freecrm.hybridframework.utility.BrowserFactory;
 import com.vision.freecrm.hybridframework.utility.ConfigDataProvider;
 import com.vision.freecrm.hybridframework.utility.ExcelDataProvider;
@@ -14,6 +17,19 @@ public class TestBase {
 	public BrowserFactory browserFactory;
 	public ExcelDataProvider excelDataProvider;
 	public Helper helper;
+	
+	public LoginPage login;
+	public WebDriver driver;
+	
+	@BeforeMethod
+	public void setUp()
+	{
+		driver=browserFactory.browserSetUp(
+				configDataProvider.getKey("browser"), 
+				configDataProvider.getKey("qaUrl"));
+		//login=PageFactory.initElements(driver,LoginPage.class );
+		login=new LoginPage(driver);
+	}
 	
 	@BeforeSuite
 	public void init() {

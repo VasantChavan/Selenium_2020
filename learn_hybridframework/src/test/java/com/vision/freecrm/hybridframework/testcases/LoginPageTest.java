@@ -12,18 +12,7 @@ import com.vision.freecrm.hybridframework.testbase.TestBase;
 
 public class LoginPageTest extends TestBase{
 
-	public LoginPage login;
-	public WebDriver driver;
 	
-	@BeforeMethod
-	public void setUp()
-	{
-		driver=browserFactory.browserSetUp(
-				configDataProvider.getKey("browser"), 
-				configDataProvider.getKey("qaUrl"));
-		//login=PageFactory.initElements(driver,LoginPage.class );
-		login=new LoginPage(driver);
-	}
 	
 	/*@Test(dataProvider="getData")
 	public void verifyLoginTest(String uname, String upass){
