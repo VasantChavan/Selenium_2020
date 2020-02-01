@@ -1,14 +1,11 @@
 package com.vision.freecrm.hybridframework.testcases;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.vision.freecrm.hybridframework.pages.LoginPage;
-import com.vision.freecrm.hybridframework.testbase.TestBase;
+import com.vision.freecrm.hybridframework.testBase.TestBase;
 
 public class LoginPageTest extends TestBase{
 

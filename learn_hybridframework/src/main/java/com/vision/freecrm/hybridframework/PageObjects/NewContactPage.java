@@ -1,4 +1,4 @@
-package com.vision.freecrm.hybridframework.pages;
+package com.vision.freecrm.hybridframework.PageObjects;
 
 import org.openqa.selenium.WebDriver;
 

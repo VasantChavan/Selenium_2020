@@ -1,4 +1,4 @@
-package com.vision.freecrm.hybridframework.utility;
+package com.vision.freecrm.hybridframework.Utility;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,14 +1,14 @@
-package com.vision.freecrm.hybridframework.testbase;
+package com.vision.freecrm.hybridframework.testBase;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
-import com.vision.freecrm.hybridframework.pages.LoginPage;
-import com.vision.freecrm.hybridframework.utility.BrowserFactory;
-import com.vision.freecrm.hybridframework.utility.ConfigDataProvider;
-import com.vision.freecrm.hybridframework.utility.ExcelDataProvider;
-import com.vision.freecrm.hybridframework.utility.Helper;
+import com.vision.freecrm.hybridframework.PageObjects.LoginPage;
+import com.vision.freecrm.hybridframework.Utility.BrowserFactory;
+import com.vision.freecrm.hybridframework.Utility.ConfigDataProvider;
+import com.vision.freecrm.hybridframework.Utility.ExcelDataProvider;
+import com.vision.freecrm.hybridframework.Utility.Helper;
 
 
 public class TestBase {

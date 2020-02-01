@@ -1,11 +1,11 @@
-package com.vision.freecrm.hybridframework.pages;
+package com.vision.freecrm.hybridframework.PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.vision.freecrm.hybridframework.utility.Helper;
+import com.vision.freecrm.hybridframework.Utility.Helper;
 
 public class HomePage {
 

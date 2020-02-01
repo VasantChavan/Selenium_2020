@@ -5,9 +5,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.vision.freecrm.hybridframework.pages.HomePage;
-import com.vision.freecrm.hybridframework.pages.LoginPage;
-import com.vision.freecrm.hybridframework.testbase.TestBase;
+import com.vision.freecrm.hybridframework.PageObjects.HomePage;
+import com.vision.freecrm.hybridframework.PageObjects.LoginPage;
+import com.vision.freecrm.hybridframework.testBase.TestBase;
 
 public class HomePageTest extends TestBase {
 
