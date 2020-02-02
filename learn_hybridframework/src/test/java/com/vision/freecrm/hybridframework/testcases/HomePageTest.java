@@ -1,21 +1,15 @@
 package com.vision.freecrm.hybridframework.testcases;
 
-import org.openqa.selenium.WebDriver;
+
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
+
 import org.testng.annotations.Test;
 
-import com.vision.freecrm.hybridframework.PageObjects.HomePage;
-import com.vision.freecrm.hybridframework.PageObjects.LoginPage;
 import com.vision.freecrm.hybridframework.testBase.TestBase;
 
 public class HomePageTest extends TestBase {
-
-	public WebDriver driver;
-	LoginPage login;
-	HomePage homepage;
 	
-	@BeforeMethod
+	/*@BeforeMethod
 	public void setUp(){
 		driver=browserFactory.browserSetUp(
 				configDataProvider.getKey("browser"), 
@@ -25,7 +19,7 @@ public class HomePageTest extends TestBase {
 		homepage=login.verifyLoginIntoAnApplication(
 				excelDataProvider.getStringCellData(1, 1, 0), 
 				excelDataProvider.getStringCellData(1, 1, 1));
-	}
+	}*/
 	
 	@Test(priority=1)
 	public void verifyloggedUserNameTest(){

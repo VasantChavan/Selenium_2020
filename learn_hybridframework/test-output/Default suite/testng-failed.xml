@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.vision.freecrm.hybridframework.testcases.HomePageTest">
+      <class name="com.vision.freecrm.hybridframework.testcases.NewContactsPageTest">
         <methods>
-          <include name="navigatetoNewContactsPageTest"/>
-          <include name="init"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="createNewAccountsTest"/>
         </methods>
-      </class> <!-- com.vision.freecrm.hybridframework.testcases.HomePageTest -->
+      </class> <!-- com.vision.freecrm.hybridframework.testcases.NewContactsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

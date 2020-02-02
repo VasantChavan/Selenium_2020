@@ -21,8 +21,8 @@ public class HomePage {
 	WebElement loggedUserName;
 	
 	
-	public HomePage(WebDriver driver){
-				this.driver=driver;
+	public HomePage(WebDriver ldriver){
+				this.driver=ldriver;
 				PageFactory.initElements(driver, this);
 	}
 	
